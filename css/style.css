@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    /* line-height: 1.6; */
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Promo
+================ */
+
+.promo {
+    width: 100%;
+    padding: 39px 0 62px 0;
+    height: 800px;
+    background: #150f10 url("../img/bg.jpg") center no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.promo-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.promo-logo img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.promo-text {
+ 
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* Header
+================ */
+
+.header {
+    display: flex;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #f9bf3b;
+    font-size: 41px;
+    font-weight: 400;
+     text-transform: uppercase;
+}
+ h1.title {
+     padding-bottom: 30px;
+ }
+
+.simple {
+
+font-size: 80px;
+font-weight: 400;
+text-transform: uppercase;
+padding-bottom: 30px;
+}
+
+h2.title {
+    padding-bottom: 75px;
+}
