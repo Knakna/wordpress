@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     /* line-height: 1.6; */
+    background: #000;
 }
 
 *, *:before, *:after {
