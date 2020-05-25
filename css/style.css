@@ -91,7 +91,7 @@ h2.title {
 .header-text {
     font-size: 21px;
     font-weight: 300;
-    line-height: 28px;
+    /* line-height: 28px; */
     /* font-family: "Roboto Light"; */
     font-weight: 300;
     text-align: center;
@@ -101,4 +101,29 @@ h2.title {
     color: #f9bf3b;
     /* font-family: "Roboto - Bold"; */
     font-weight: 700;
+}
+.header-finish {
+    display: flex;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.btn {
+    padding: 29px;
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.23);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+    color: #ffffff;
+    /* font-family: "Roboto Condensed"; */
+    font-size: 21px;
+    font-weight: 400;
+
+    text-transform: uppercase;
 }
