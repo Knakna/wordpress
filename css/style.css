@@ -22,6 +22,7 @@ p {
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
+    position: relative;
 }
 
 /* Promo
@@ -83,6 +84,7 @@ p {
 h1.header-title {
     padding-bottom: 5px;
 }
+
 .header-subtitle {
     display: flex;
     justify-content: center;
@@ -99,12 +101,10 @@ h1.header-title {
     text-transform: uppercase;
 }
 
- 
 .subtitle-line {
     width: 292px;
     height: 2px;
     background-color: #fff;
-    
 }
 
 h2.header-title {
@@ -172,31 +172,34 @@ h2.header-title {
 
 .waiting {
     padding: 85px 0 75px 0;
-    height: 604px;
+    min-height: 604px;
     background-color: #efefef;
 }
 
 /* Waiting
 ================ */
+
 .container-waiting {
     margin: 0 auto;
     text-align: center;
 }
+
 .waiting-title {
     margin-bottom: 15px;
     color: #252525;
     font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
-    line-height: 12px;
     text-transform: uppercase;
 }
 
 .line {
-    margin-bottom: 15px;
+    margin: 15px auto;
+  
     width: 217px;
     height: 4px;
     background-color: #f9bf3b;
+    
 }
 
 .waiting-subtitle {
@@ -205,35 +208,82 @@ h2.header-title {
     font-family: Roboto;
     font-size: 23px;
     font-weight: 400;
-    
 }
 
 .waiting-blocs {
-display: flex;
-justify-content: center;
-align-items: flex-start;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
 
+.waiting-blocs img {
+    display: block;
+    margin-bottom: 35px;
 }
 
 .waiting-blocs-create {
-
+    max-width: 354px;
 }
+
 .waiting-blocs-show {
-
+    max-width: 339px;
 }
 
 .waiting-blocs-index {
-
+    max-width: 340px;
 }
 
-.waiting-blocs-index {
-
-}
 .waiting-blocs-text {
     color: #4a4a4a;
     font-family: Roboto;
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
+    text-align: center;
 }
 
+/* Optimization
+================ */
+.optimization {
+    min-height: 550px;
+    padding: 102px 0 107px;
+ 
+}
+
+.container-optimization {
+
+margin-left: 391px;
+
+
+}
+.optimization-title {
+    margin-bottom: 35px;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 30px;
+    font-weight: 400;
+     text-transform: uppercase;
+}
+
+.optimization-text {
+    margin-bottom: 25px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    font-family: "Roboto Light";
+    font-weight: 300;
+}
+
+.optimization-text-other {
+   font-family: "Roboto - Bold";
+font-weight: 700; 
+}
+
+.optimization_img {
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
+}
