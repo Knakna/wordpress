@@ -36,6 +36,9 @@ p {
     color: #ffffff;
 }
 
+/* Promo-logo
+================ */
+
 .promo-logo {
     margin-bottom: 50px;
 }
@@ -69,7 +72,7 @@ p {
     align-items: center;
 }
 
-.title {
+.header-title {
     color: #f9bf3b;
     font-size: 41px;
     font-weight: 400;
@@ -77,16 +80,16 @@ p {
     font-family: "Roboto - Black";
 }
 
-h1.title {
+h1.header-title {
     padding-bottom: 5px;
 }
-.subtitle {
+.header-subtitle {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.simple {
+.header-simple {
     font-size: 60px;
     font-weight: 400;
     text-transform: uppercase;
@@ -104,7 +107,7 @@ h1.title {
     
 }
 
-h2.title {
+h2.header-title {
     padding-bottom: 65px;
 }
 
@@ -124,14 +127,17 @@ h2.title {
     font-weight: 700;
 }
 
-.header-finish {
+/* Promo-finish
+================ */
+
+.promo-finish {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.btn {
+.promo-finish-btn {
     padding: 29px;
     margin-bottom: 65px;
     width: 313px;
@@ -148,11 +154,11 @@ h2.title {
     outline: none;
 }
 
-.btn:hover {
+.promo-finish-btn:hover {
     background-image: linear-gradient(to top, #1a6279 0%, #28839c 100%);
 }
 
-.more {
+.promo-finish-more {
     color: #ffffff;
     font-family: "Roboto - Thin";
     font-size: 15px;
@@ -160,3 +166,74 @@ h2.title {
     text-transform: uppercase;
     margin-bottom: 15px;
 }
+
+/* Waiting
+================ */
+
+.waiting {
+    padding: 85px 0 75px 0;
+    height: 604px;
+    background-color: #efefef;
+}
+
+/* Waiting
+================ */
+.container-waiting {
+    margin: 0 auto;
+    text-align: center;
+}
+.waiting-title {
+    margin-bottom: 15px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+.line {
+    margin-bottom: 15px;
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+}
+
+.waiting-subtitle {
+    margin-bottom: 45px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    
+}
+
+.waiting-blocs {
+display: flex;
+justify-content: center;
+align-items: flex-start;
+
+}
+
+.waiting-blocs-create {
+
+}
+.waiting-blocs-show {
+
+}
+
+.waiting-blocs-index {
+
+}
+
+.waiting-blocs-index {
+
+}
+.waiting-blocs-text {
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
