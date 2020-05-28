@@ -307,4 +307,22 @@ font-weight: 700;
     margin-bottom: 23px;
 }
 
+.finish-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.finish-wrapper-items {
+
+}
+
+.finish-wrapper-items img {
+    height: 115px;
+    width: 115px;
+    background: #b4e2ff;
+    border-radius: 50%;
+    
+
+}
 
