@@ -127,17 +127,17 @@ h2.header-title {
     font-weight: 700;
 }
 
-/* Promo-finish
+/* Promo-end
 ================ */
 
-.promo-finish {
+.promo-end {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.promo-finish-btn {
+.promo-end-btn {
     padding: 29px;
     margin-bottom: 65px;
     width: 313px;
@@ -154,11 +154,11 @@ h2.header-title {
     outline: none;
 }
 
-.promo-finish-btn:hover {
+.promo-end-btn:hover {
     background-image: linear-gradient(to top, #1a6279 0%, #28839c 100%);
 }
 
-.promo-finish-more {
+.promo-end-more {
     color: #ffffff;
     font-family: "Roboto - Thin";
     font-size: 15px;
@@ -287,3 +287,24 @@ font-weight: 700;
     left: -240px;
     z-index: -1;
 }
+
+/* Finish
+================ */
+.finish {
+    padding: 86px 0 75px 0;
+    min-height: 447px;
+    background: #2c2c2c url("../img/bg-finish.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.finish-title {
+    text-align: center;
+    color: #efefef;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
+
+
