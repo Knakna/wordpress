@@ -382,3 +382,56 @@ h2.header-title {
 .present-btn:hover {
     background-image: linear-gradient(to top, #1a6279 0%, #28839c 100%);
 }
+
+
+/* Vebinar
+================ */
+
+.vebinar {
+    min-height: 515px;
+    padding: 89px 0 64px 0;
+}
+
+.vebinar-img {
+     text-align: center;
+     margin-bottom: 37px;
+    }
+
+.vebinar-text {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    }
+
+.vebinar-title {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.vebinar-subtitle {
+    text-align: center;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    }
+
+    .footer {
+        min-height: 166px;
+        background-color: #1a1a1a;
+    }
+
+
+
+
+    
+
