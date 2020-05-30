@@ -12,10 +12,6 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-/* p {
-    margin: 0 0 10px;
-} */
-
 .container {
     width: 1170px;
     margin: 0 auto;
@@ -98,6 +94,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
     text-transform: uppercase;
     padding-bottom: 5px;
+    text-align: center;
 }
 
 h1.header-title {
@@ -108,6 +105,7 @@ h1.header-title {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .header-simple {
@@ -116,6 +114,7 @@ h1.header-title {
     padding-bottom: 10px;
     color: #ffffff;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .subtitle-line {
@@ -176,9 +175,6 @@ h2.header-title {
     background-color: #efefef;
 }
 
-/* Waiting
-================ */
-
 .container-waiting {
     margin: 0 auto;
     text-align: center;
@@ -199,6 +195,9 @@ h2.header-title {
     font-size: 23px;
 }
 
+/* Waiting-blocs
+================ */
+
 .waiting-blocs {
     display: flex;
     justify-content: space-around;
@@ -212,10 +211,12 @@ h2.header-title {
 
 .waiting-blocs-create {
     max-width: 354px;
+    margin-right: 10px;
 }
 
 .waiting-blocs-show {
     max-width: 339px;
+    margin-right: 10px;
 }
 
 .waiting-blocs-index {
@@ -228,6 +229,7 @@ h2.header-title {
     font-weight: 300;
     line-height: 21px;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 /* Optimization
@@ -287,6 +289,9 @@ h2.header-title {
     text-transform: uppercase;
     margin-bottom: 23px;
 }
+
+/* Finish-wrapper
+================ */
 
 .finish-wrapper {
     margin-top: 41px;
@@ -396,7 +401,7 @@ h2.header-title {
 
 .info {
     margin: 0 auto;
-    width: 377px;
+    min-width: 377px;
     text-align: center;
     color: #888888;
     font-size: 15px;
@@ -417,4 +422,168 @@ h2.header-title {
 
 .info-tel a {
     text-decoration: none;
+}
+
+/* Media
+================ */
+
+@media (max-width: 1200px) {
+
+    .container {
+        width: auto;
+    }
+
+    .subtitle-line {
+        display: none;
+    }
+
+    .promo {
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .header-title {
+        font-size: 30px;
+    }
+    .header-simple {
+        font-size: 40px;
+    }
+
+    .waiting-blocs {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .waiting-blocs img {
+        margin-bottom: 10px;
+    }
+
+    .optimization {
+        padding: 40px 0 40px;
+        min-height: auto;
+    }
+
+    .optimization_img {
+        display: none;
+    }
+
+    .container-optimization {
+        margin: 0 auto;
+    }
+
+    .optimization-title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 718px) {
+
+    .btn {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .promo-end-more {
+        margin-bottom: 35px;
+    }
+
+    .waiting {
+        padding: 45px 0 15px 0;
+        min-height: auto;
+    }
+
+    .waiting-subtitle {
+        margin-bottom: 25px;
+        font-size: 23px;
+    }
+
+    .waiting-blocs img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .optimization-title {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .finish {
+        padding: 46px 0 29px 0;
+        min-height: auto;
+    }
+
+    .finish-wrapper {
+        margin-top: 21px;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+
+    .finish-wrapper-items {
+        margin-bottom: 20px;
+    }
+
+    .finish-wrapper-items-round {
+        margin-bottom: 15px;
+    }
+
+    .present {
+        padding: 36px 0 47px 0;
+        min-height: auto;
+    }
+
+    .present-text {
+        margin-bottom: 42px;
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .vebinar {
+        min-height: auto;
+        padding: 39px 0 44px 0;
+    }
+
+    .vebinar-img img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .vebinar-text {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .vebinar-title {
+        margin-bottom: 10px;
+        font-size: 26px;
+    }
+
+    .vebinar-subtitle {
+        font-size: 15px;
+    }
+
+    .footer {
+        padding: 31px 0 39px 0;
+        min-height: auto;
+    }
+
+    .info {
+        min-width: auto;
+    }
+
+    .info-links {
+        margin-bottom: 20px;
+    }
+
+    .info-links a {
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    .info-line {
+        display: none;
+    }
 }
