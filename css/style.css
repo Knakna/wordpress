@@ -2,7 +2,6 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    /* line-height: 1.6; */
 }
 
 *, *:before, *:after {
@@ -13,25 +12,49 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-p {
+/* p {
     margin: 0 0 10px;
-}
+} */
 
 .container {
-    width: 100%;
-    max-width: 1170px;
+    width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
     position: relative;
+}
+
+.line {
+    margin: 15px auto;
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    width: 313px;
+    height: 72px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+}
+
+.btn:hover {
+    background-image: linear-gradient(to top, #1a6279 0%, #28839c 100%);
 }
 
 /* Promo
 ================ */
 
 .promo {
-    width: 100%;
+    margin: 0 auto;
+    /* width: 100%; */
     padding: 39px 0 62px;
-    height: 800px;
+    min-height: 800px;
     background: #150f10 url("../img/bg.jpg") center no-repeat;
     background-size: cover;
     color: #ffffff;
@@ -41,7 +64,7 @@ p {
 ================ */
 
 .promo-logo {
-    margin-bottom: 50px;
+    margin-bottom: 53px;
 }
 
 .promo-logo img {
@@ -51,13 +74,9 @@ p {
 }
 
 .promo-text {
-    font-weight: 500;
     text-transform: uppercase;
     color: #ffffff;
-    font-family: Roboto;
-    font-size: 15px;
     font-weight: 500;
-    line-height: 24px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -76,9 +95,9 @@ p {
 .header-title {
     color: #f9bf3b;
     font-size: 41px;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: uppercase;
-    font-family: "Roboto - Black";
+    padding-bottom: 5px;
 }
 
 h1.header-title {
@@ -92,12 +111,10 @@ h1.header-title {
 }
 
 .header-simple {
-    font-size: 60px;
-    font-weight: 400;
-    text-transform: uppercase;
-    padding-bottom: 5px;
+    font-size: 80px;
+    font-weight: 900;
+    padding-bottom: 10px;
     color: #ffffff;
-    font-family: "Roboto - Black";
     text-transform: uppercase;
 }
 
@@ -105,25 +122,23 @@ h1.header-title {
     width: 292px;
     height: 2px;
     background-color: #fff;
+    margin: 0 10px;
 }
 
 h2.header-title {
-    padding-bottom: 65px;
+    padding-bottom: 15px;
 }
 
 .header-text {
     padding: 0 13px;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 28px;
-    font-family: "Roboto Light";
-    font-weight: 300;
     text-align: center;
 }
 
 .header-text .free {
     color: #f9bf3b;
-    font-family: "Roboto - Bold";
     font-weight: 700;
 }
 
@@ -138,31 +153,16 @@ h2.header-title {
 }
 
 .promo-end-btn {
-    padding: 29px;
+    padding: 28px;
     margin-bottom: 65px;
-    width: 313px;
-    height: 72px;
-    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
     border: 4px solid rgba(0, 0, 0, 0.23);
-    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
-    color: #ffffff;
-    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
-    text-transform: uppercase;
-    cursor: pointer;
-    outline: none;
-}
-
-.promo-end-btn:hover {
-    background-image: linear-gradient(to top, #1a6279 0%, #28839c 100%);
 }
 
 .promo-end-more {
     color: #ffffff;
-    font-family: "Roboto - Thin";
-    font-size: 15px;
-    font-weight: 400;
+    font-weight: 100;
     text-transform: uppercase;
     margin-bottom: 15px;
 }
@@ -189,15 +189,7 @@ h2.header-title {
     color: #252525;
     font-family: Roboto;
     font-size: 30px;
-    font-weight: 400;
     text-transform: uppercase;
-}
-
-.line {
-    margin: 15px auto;
-    width: 217px;
-    height: 4px;
-    background-color: #f9bf3b;
 }
 
 .waiting-subtitle {
@@ -205,7 +197,6 @@ h2.header-title {
     color: #4a4a4a;
     font-family: Roboto;
     font-size: 23px;
-    font-weight: 400;
 }
 
 .waiting-blocs {
@@ -233,7 +224,6 @@ h2.header-title {
 
 .waiting-blocs-text {
     color: #4a4a4a;
-    font-family: Roboto;
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
@@ -253,11 +243,10 @@ h2.header-title {
 }
 
 .optimization-title {
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     color: #299cbd;
-    font-family: "Roboto - Black";
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: uppercase;
 }
 
@@ -267,14 +256,11 @@ h2.header-title {
     font-family: Roboto;
     font-size: 17px;
     font-weight: 300;
-    line-height: 27px;
-    font-family: "Roboto Light";
-    font-weight: 300;
 }
 
 .optimization-text-other {
-    font-family: "Roboto - Bold";
     font-weight: 700;
+    line-height: 27px;
 }
 
 .optimization_img {
@@ -297,9 +283,7 @@ h2.header-title {
 .finish-title {
     text-align: center;
     color: #efefef;
-    font-family: Roboto;
     font-size: 30px;
-    font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 23px;
 }
@@ -329,7 +313,6 @@ h2.header-title {
 .finish-wrapper-items-text {
     text-align: center;
     color: #efefef;
-    font-family: Roboto;
     font-size: 17px;
     font-weight: 300;
     line-height: 20px;
@@ -347,42 +330,24 @@ h2.header-title {
 .present-logo {
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 42px;
+    margin-bottom: 30px;
 }
 
 .present-text {
     text-align: center;
     margin-bottom: 52px;
     color: #252525;
-    font-family: Roboto;
     font-size: 30px;
-    font-weight: 400;
     line-height: 43px;
 }
 
 .present-btn {
     display: block;
     margin: 0 auto;
-    width: 313px;
-    height: 72px;
-    box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.18);
     border: 4px solid rgba(0, 0, 0, 0.11);
-    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
-    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
-    color: #ffffff;
-    font-family: "Roboto Condensed";
-    font-size: 21px;
-    font-weight: 400;
+    font-size: 18px;
     line-height: 24px;
-    text-transform: uppercase;
-    cursor: pointer;
-    outline: none;
 }
-
-.present-btn:hover {
-    background-image: linear-gradient(to top, #1a6279 0%, #28839c 100%);
-}
-
 
 /* Vebinar
 ================ */
@@ -393,78 +358,63 @@ h2.header-title {
 }
 
 .vebinar-img {
-     text-align: center;
-     margin-bottom: 37px;
-    }
+    text-align: center;
+    margin-bottom: 37px;
+}
 
 .vebinar-text {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #252525;
-    font-family: Roboto;
     font-size: 30px;
-    font-weight: 400;
     text-transform: uppercase;
-    }
+}
 
 .vebinar-title {
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     color: #299cbd;
-    font-family: "Roboto - Black";
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: uppercase;
 }
 
 .vebinar-subtitle {
     text-align: center;
     color: #4a4a4a;
-    font-family: Roboto;
     font-size: 23px;
-    font-weight: 400;
-    }
+}
 
 /* Footer
 ================ */
 
-    .footer {
-        min-height: 166px;
-        background-color: #1a1a1a;
-        padding: 61px 0 69px 0;
-    }
-    
-    .info {
-        margin: 0 auto;
-        width: 377px;
-        text-align: center;
-        color: #888888;
-        font-family: Roboto;
-        font-size: 15px;
-        font-weight: 300;
-        line-height: 21px;
-    }
-    
-    .footer a {
-        color: #888888;
-        font-family: Roboto;
-        font-size: 15px;
-        font-weight: 300;
-        line-height: 21px;
-    }
+.footer {
+    min-height: 166px;
+    background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
+}
 
-    .footer a:hover {
-        color: #299cbd;
-    }
+.info {
+    margin: 0 auto;
+    width: 377px;
+    text-align: center;
+    color: #888888;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
 
-    .info-tel a {
-        text-decoration: none;
-    }
+.footer a {
+    color: #888888;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
 
+.footer a:hover {
+    color: #299cbd;
+}
 
-
-    
-    
-
-    
-
+.info-tel a {
+    text-decoration: none;
+}
